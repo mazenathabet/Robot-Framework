@@ -30,6 +30,6 @@ Register multiple users with csv
 	FOR  ${register_user}  IN  @{Register_data}
 		#run keyword and continue on failure  -> if anything fails it will move on to the next keyword and keeps the loop going
 		Go to Registeration page
-		Fill Registration data and click register using csv  ${register_user}
+		click register using csv  ${register_user}
 		Verify registration
 	END

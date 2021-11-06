@@ -1,21 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
-*** Variables ***
-############################################
-## WebElements
-############################################
-${GENDER_RADIO} =  Gender
-${FNAME_BOX} =  id:FirstName
-${LNAME_BOX} =  id:LastName
-${DAY_LIST} =  name:DateOfBirthDay
-${MONTH_LIST} =  name:DateOfBirthMonth
-${YEAR_LIST} =  name:DateOfBirthYear
-${EMAIL_BOX} =  id:Email
-${COMPANY_BOX} =  css:#Company
-${PASSWORD_BOX} =  id:Password
-${CONFIRM_PASSWORD_BOX} =  id:ConfirmPassword
-${REGISTER_BUTTON} =  id:register-button
-${EMAIL_ALREADY_USED_LABEL} =  xpath://li[contains(text(),'The specified email already exists')]
+Resource   ../PageLocators/Locators.robot
+
 *** Keywords ***
 Fill Registration data and click register
 	[Arguments]  ${UserData}
@@ -36,12 +22,10 @@ Fill Registration data and click register
     wait until element is visible    ${CONFIRM_PASSWORD_BOX}
     input password    ${CONFIRM_PASSWORD_BOX}  ${UserData.Password}
     click element    ${REGISTER_BUTTON}
-
 Verfiy I cant use registred email again
 	Wait Until Page Contains Element    ${EMAIL_ALREADY_USED_LABEL}
 	page should contain element    ${EMAIL_ALREADY_USED_LABEL}
-
-Fill Registration data and click register using csv
+click register using csv
 	[Arguments]  ${UserData}
 	select radio button    ${GENDER_RADIO}   ${UserData[0]}
     wait until element is visible    ${FNAME_BOX}

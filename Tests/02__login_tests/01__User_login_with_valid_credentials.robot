@@ -13,7 +13,7 @@ User Can login with valid credentials
     [Documentation]    this is a user login testcase
     [Tags]    Regresstion  Smoke
 	LOGIN_FEATURE.NAVIGATE TO LOGIN PAGE
-	LOGIN_FEATURE.USER LOGIN WITH VALID CREDENTIALS    ${FIRST_USER}
+	LOGIN_FEATURE.USER LOGIN WITH VALID CREDENTIALS  ${FIRST_USER}
 	LOGIN_FEATURE.VERIFY USER LOGGED IN SUCCESSFULY
 
 
