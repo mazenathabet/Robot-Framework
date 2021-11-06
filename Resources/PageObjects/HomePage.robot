@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource   ../PageLocators/Locators.robot
+Resource   ../PageLocators/HomePageLocators.robot
 *** Keywords ***
 Verify Registeration Completed
 	Wait Until Page Contains Element    ${REGISTRATION_COMPLETED_LABEL}

@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource   ../PageLocators/Locators.robot
+Resource   ../PageLocators/RegistrationPageLocators.robot
 
 *** Keywords ***
 Fill Registration data and click register

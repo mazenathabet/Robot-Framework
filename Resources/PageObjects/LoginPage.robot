@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource   ../PageLocators/Locators.robot
+Resource   ../PageLocators/LoginPageLocators.robot
 *** Keywords ***
 verify login page is loaded
 	Wait Until Page Contains Element    ${SIGN_IN_LABEL}

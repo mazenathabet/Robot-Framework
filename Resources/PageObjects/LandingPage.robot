@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource   ../PageLocators/Locators.robot
+Resource   ../PageLocators/HomePageLocators.robot
 *** Keywords ***
 Load
 	go to    ${URL.${ENVIRONMENT}}
