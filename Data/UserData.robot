@@ -1,6 +1,6 @@
 *** Variables ***
 #User data
-&{FIRST_USER}  Gender=M  FName=Mazen  lName=Ahmed  Email=mazen@gmail.com  Company=Cegedim  Password=12345678  Day=18  Month=December  Year=1992
+&{FIRST_USER}  Gender=M  FName=Mazen  lName=Ahmed  Email=mazen1@gmail.com  Company=Cegedim  Password=12345678  Day=18  Month=December  Year=1992
 &{SECOND_USER}  Gender=M  FName=Esraa  lName=Mustafa  Email=esraa@gmail.com  Company=Blocks  Password=87654321  Day=18  Month=October  Year=1998
 &{THIRD_USER}  Gender=F  FName=Julie  lName=Adams  Email=Julie@gmail.com  Company=Cegedim  Password=12345678  Day=1  Month=January  Year=1988
 &{FOURTH_USER}  Gender=F  FName=Mary  lName=Cole  Email=Mary@gmail.com  Company=IBM  Password=12345678  Day=20  Month=March  Year=2001
