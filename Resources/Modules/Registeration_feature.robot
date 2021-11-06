@@ -1,9 +1,9 @@
 *** Settings ***
 Library    SeleniumLibrary
 
-Resource   ./PageObjects/LandingPage.robot
-Resource   ./PageObjects/RegisterPage.robot
-Resource   ./PageObjects/HomePage.robot
+Resource   ../PageObjects/LandingPage.robot
+Resource   ../PageObjects/RegisterPage.robot
+Resource   ../PageObjects/HomePage.robot
 
 *** Keywords ***
 Go to Registeration page

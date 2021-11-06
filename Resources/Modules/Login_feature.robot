@@ -1,8 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource   ./PageObjects/LandingPage.robot
-Resource   ./PageObjects/HomePage.robot
-Resource   ./PageObjects/LoginPage.robot
+Resource   ../PageObjects/LandingPage.robot
+Resource   ../PageObjects/HomePage.robot
+Resource   ../PageObjects/LoginPage.robot
 
 *** Keywords ***
 Navigate to Login page

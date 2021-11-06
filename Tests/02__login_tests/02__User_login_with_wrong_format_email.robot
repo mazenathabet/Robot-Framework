@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource  ../../Resources/Common/Common.robot
-Resource  ../../Resources/Login_feature.robot
+Resource  ../../Resources/Modules/Login_feature.robot
 Resource  ../../Data/UserData.robot
 Resource  ../../Data/Configurations.robot
 
