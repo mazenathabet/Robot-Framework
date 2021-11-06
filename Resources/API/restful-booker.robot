@@ -24,5 +24,5 @@ Get booking by id
 	Should Be Equal As Strings    ${response.status_code}  200
 	# check the response body
 	${json} =  Set Variable  ${response.json()}
-	Should Be Equal As Strings  ${json['firstname']}   Susan
+	Should Be Equal As Strings  ${json['firstname']}   Jim
 	Log  ${json}

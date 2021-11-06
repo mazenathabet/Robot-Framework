@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation   This is a user registration Test Suite
 Resource  ../../Resources/Registeration_feature.robot
-Resource  ../../Resources/Common.robot
+Resource  ../../Resources/Common/Common.robot
 Resource  ../../Data/UserData.robot
 Resource  ../../Data/Configurations.robot
 

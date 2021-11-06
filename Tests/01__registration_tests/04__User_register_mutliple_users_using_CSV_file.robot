@@ -1,8 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource  ../../Resources/Common.robot
+Resource  ../../Resources/Common/Common.robot
 Resource  ../../Resources/Registeration_feature.robot
-Resource  ../../Resources/DataManager.robot
+Resource  ../../Resources/Utils/DataManager.robot
 Resource  ../../Data/Configurations.robot
 
 Test Setup  Begin Web Test   # Begin Web Test (Common) - steps to run before each test case

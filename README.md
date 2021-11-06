@@ -24,6 +24,9 @@
     * robot -d results --l debug tests
     * pass environment and browser variables in cmd 
     * robot -d results -v BROWSER:firefox -v ENVIRONMENT:formy Tests/01__registration_tests/01__User_register.robot
+    * use the following command if you want to run specific test suites
+    * robot -d results  --suite api_tests --suite registration_tests --suite login_tests tests
+
 
   
     
