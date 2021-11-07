@@ -91,3 +91,10 @@
 - use : ../../Resources/Common.robot
 - if the tests are in the tests folder and not a sub folder
 - use : ../Resources/Common.robot
+#Jenkins
+- after downloading the jenkins.war file
+- go to cmd and run these 2 commands
+- D:
+- cd D:\Study materials and projects\Automation practices\Jenkins
+- java -Dhudson.model.DirectoryBrowserSupport.CSP= -jar jenkins.war
+- go to localhost:8080 and enter the password you get from the cmd
